@@ -1,4 +1,4 @@
-import TeamBox from "./Teambox";
+import TeamBox from "./TeamBox";
 
 
 const TournamentBracket = () => {
