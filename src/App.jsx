@@ -1,9 +1,15 @@
-import React from 'react'
-import Home from './pages/Home/Home'
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Routing from './components/Routing/Routing';
+
 
 const App = () => {
   return (
-    <><Home/></>
+    <>
+    <BrowserRouter>  <Routing/> </BrowserRouter>
+
+    </>
   )
 }
 

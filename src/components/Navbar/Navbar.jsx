@@ -1,20 +1,27 @@
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
   return (
-<header className="fixed top-0 left-0 w-full z-50 bg-black/20 backdrop-blur-md">      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 h-20">
+<header className="fixed top-0 left-0 w-full z-50 bg-gray-800 backdrop-blur-md"> 
+<div className="max-w-7xl mx-auto flex items-center justify-between px-6 h-20">
         
         {/* Logo */}
-        <div className="text-2xl font-bold text-white heading">
-          BOT<span className="text-red-500">LEAGUE</span>
-        </div>
+          <Link to="/">
+          <img
+            src={logo}
+            alt="BotLeague Logo"
+            className="h-12 w-auto object-contain"
+          />
+        </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-10 text-gray-300">
-          <a href="#" className="hover:text-red-500 transition">Events</a>
-          <a href="#" className="hover:text-red-500 transition">Programs</a>
-          <a href="#" className="hover:text-red-500 transition">Community</a>
-          <a href="#" className="hover:text-red-500 transition">Partner</a>
+<Link to="/events" className="heading hover:text-red-500 transition">Events</Link>  
+ <Link to="/programs" className="heading hover:text-red-500 transition">Programs</Link>
+ <Link to="/community" className="heading hover:text-red-500 transition">Community</Link>
+ <Link to="/partner" className="heading hover:text-red-500 transition"> Partner</Link>
         </nav>
 
         {/* Buttons */}
