@@ -1,5 +1,5 @@
     import DisciplineCard from "./DisciplineCard";
-    import circuit from "../../assets/images/circuit.png";
+    import circuit from "../../assets/images/Circuit.png";
     import roboRace from "../../assets/images/Robo-Race.png";
     import lineFollower from "../../assets/images/Line-Follower.png";
     import rcRace from "../../assets/images/RC-Racing.png";
