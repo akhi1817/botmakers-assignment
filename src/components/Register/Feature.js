@@ -1,9 +1,4 @@
-import {
-  Trophy,
-  Scale,
-  BriefcaseBusiness,
-  Zap,
-} from "lucide-react";
+import { Trophy, Scale, BriefcaseBusiness, Zap,} from "lucide-react";
 import { FaMedal } from "react-icons/fa";
 import { FaGavel } from "react-icons/fa6";
 

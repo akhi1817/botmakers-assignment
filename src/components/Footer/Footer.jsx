@@ -1,9 +1,4 @@
-import {
-  FaYoutube,
-  FaInstagram,
-  FaFacebookF,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaYoutube, FaInstagram, FaFacebookF, FaXTwitter,} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -13,10 +8,8 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
 
-          {/* Column 1 */}
-
+          {/* 1 */}
           <div>
-
             <h3 className="text-white uppercase text-lg font-semibold tracking-wider mb-6">
               QUICK LINKS
             </h3>
@@ -57,12 +50,8 @@ const Footer = () => {
 
           </div>
 
-          {/* Column 2 */}
-
+          {/* 2 */}
           <div>
-
-          
-
             <ul className="space-y-4 mt-12">
 
               <li className="text-[#9D9D9D] hover:text-[#FF4D4D] cursor-pointer">
@@ -98,47 +87,26 @@ const Footer = () => {
 
           </div>
 
-          {/* Column 3 */}
-
+          {/* 3 */}
           <div />
 
-          {/* Column 4 */}
-
+          {/* 4 */}
           <div>
-
-            <h3 className="text-white uppercase text-lg font-semibold tracking-wider mb-6">
-              SOCIAL MEDIA
-            </h3>
+            <h3 className="text-white uppercase text-lg font-semibold tracking-wider mb-6">SOCIAL MEDIA</h3>
 
             <div className="flex items-center gap-4">
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition"
-              >
-                <FaYoutube size={18} />
-              </a>
+              <a href="#"className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition">
+                <FaYoutube size={18}/></a>
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition"
-              >
-                <FaInstagram size={18} />
-              </a>
+              <a href="#"className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition">
+                <FaInstagram size={18}/></a>
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition"
-              >
-                <FaFacebookF size={18} />
-              </a>
+              <a href="#" className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition">  
+                <FaFacebookF size={18} /></a>
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition"
-              >
-                <FaXTwitter size={18} />
-              </a>
+              <a href="#" className="w-11 h-11 rounded-full border border-[#444] flex items-center justify-center text-white hover:bg-[#FF4D4D] hover:border-[#FF4D4D] transition">
+                <FaXTwitter size={18}/></a>
 
             </div>
 

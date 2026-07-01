@@ -15,60 +15,30 @@
 
             {/* Small Title */}
 
-            <p className="heading text-red-500 text-2xl uppercase font-bold tracking-wider">
-            Sports
-            </p>
+            <p className="heading text-red-500 text-2xl uppercase font-bold tracking-wider">Sports</p>
 
             {/* Main Title */}
 
-            <h2 className="heading text-white text-4xl uppercase mt-2">
-            Competition Disciplines
-            </h2>
-
-            {/* Grid */}
+            <h2 className="heading text-white text-4xl uppercase mt-2">Competition Disciplines</h2>
 
             <div className="grid grid-cols-4 gap-5 mt-10">
 
-            <DisciplineCard
-                image={roboRace}
-                title="Robo Race"
-            />
+                <DisciplineCard image={roboRace}title="Robo Race"/>
 
-            <DisciplineCard
-                image={lineFollower}
-                title="Line Follower"
-            />
+                <DisciplineCard image={lineFollower} title="Line Follower"/>
 
-            <DisciplineCard
-                image={rcRace}
-                title="RC Racing"
-            />
+                <DisciplineCard image={rcRace} title="RC Racing"/>
 
-            <DisciplineCard
-                image={drone}
-                title="FPV Drone Racing and Aeromodeling"
-            />
+                <DisciplineCard image={drone} title="FPV Drone Racing and Aeromodeling"/>
 
-            <DisciplineCard
-                image={hockey}
-                title="Robo Hockey"
-            />
+                <DisciplineCard image={hockey} title="Robo Hockey"/>
 
-            <DisciplineCard
-                image={war}
-                title="Robo War"
-            />
+                <DisciplineCard image={war} title="Robo War"/>
 
 
-            <div className="col-span-2 flex items-center justify-center">
-
-        <img
-            src={circuit}
-            alt="Circuit"
-            className="w-full h-full object-contain opacity-50"
-        />
-
-    </div>
+                    <div className="col-span-2 flex items-center justify-center">
+                        <img src={circuit} alt="Circuit" className="w-full h-full object-contain opacity-50"/>
+                    </div>
 
             </div>
 

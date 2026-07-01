@@ -14,13 +14,9 @@ const Register = () => {
 
           <div>
 
-            <p className="heading text-[#FF3B3B] uppercase font-bold tracking-[3px] text-lg">
-              WHY REGISTER ?
-            </p>
+            <p className="heading text-[#FF3B3B] uppercase font-bold tracking-[3px] text-lg">WHY REGISTER ?</p>
 
-            <h2 className="heading text-white uppercase text-4xl font-bold mt-2 leading-tight">
-              THE LEAGUE ADVANTAGE
-            </h2>
+            <h2 className="heading text-white uppercase text-4xl font-bold mt-2 leading-tight">THE LEAGUE ADVANTAGE</h2>
 
             <div className="mt-14 space-y-12">
               {features.map((item) => (
@@ -37,11 +33,7 @@ const Register = () => {
 
           <div className="flex justify-center">
 
-            <img
-              src={leaderboard}
-              alt="Leaderboard"
-              className="w-full max-w-md h-full"
-            />
+            <img src={leaderboard} alt="Leaderboard" className="w-full max-w-md h-full"/>
 
           </div>
 
